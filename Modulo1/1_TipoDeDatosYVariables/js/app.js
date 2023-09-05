@@ -13,4 +13,16 @@ let edad = '36';
 
 console.log('Yo me llamo ' + nombre + ' y mi edad es '+ edad);
 
+//Number o numeros
+
+const numero = 100;
+const numero2 = 200;
+
+console.log(numero + numero2);
+
+//boolean: true o false
+
+let tengoSaldo = true;
+console.log(tengoSaldo);
+
 

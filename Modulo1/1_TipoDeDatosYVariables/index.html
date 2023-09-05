@@ -8,8 +8,45 @@
     <title>PrimerClaseJS</title>
 </head>
 <body>
+    <header class="container header">
+        <h1>JS Tutorial</h1>
+    </header>
+    <div class="container back-go">
+        <button class="button green">Next</button>
+        <button class="button green">Home</button>
+    </div>
 
+    <main>
+        <section class="definition">
+            <p>JS es el lenguaje de programación más popular.</p>
+            <ul>
+                <li>Es fácil de aprender</li>
+                <li>Es el lenguaje de programacion de la Web</li>
+            </ul>
+        </section>
+        <div class="container ejemplos">
+            <h3>Algunos ejemplos de lo que puedes hacer con JS:</h3>
+            <p>Pruebalo por ti mismo</p>
+        </div>
+        <div class="container">
+            <h3>Ejemplo</h3>
+            <div class="card">
+                <h3>My primer JS</h3>
+                <button onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time</button>
+                <p id="demo"></p>
+                <button class="button green" type="button" >Try it Yourself>></button>
+            </div>
+        </div>
+
+
+
+    </main>
     
+
+
+
+
+    <!-- Generalmente enlazamos el archivo JS al final del Body -->
     <script src="./js/app.js"></script>
 </body>
 </html>
